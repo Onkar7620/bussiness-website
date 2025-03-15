@@ -1,1 +1,1 @@
-// This File is Used for Only script Functionality of Website.
+// This File is Used for Only script Functionality of Form.
