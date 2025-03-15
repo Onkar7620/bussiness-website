@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="icon" href="data:image/png;base64,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">
+</head>
+<body>
+ <div id="homepage">
+    <nav>
+         <h5><i class="ri-shining-fill"></i>The Cleanic</h5>
+         <div id="link">
+            <a href="plans.html" target="_blank">Plans</a>
+            <a href="">Services</a>
+            <a href="">about</a>
+            <a href="">Log in<i class="ri-account-circle-fill"></i></a>
+            <button>Book Now</button>
+        </div>
+         
+    </nav>
+    <img src="https://static.wixstatic.com/media/c837a6_8bdf6d31716e47f28f553df74033ed63~mv2.jpg/v1/fill/w_1470,h_1413,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_8bdf6d31716e47f28f553df74033ed63~mv2.jpg">
+    <div id="info"><h1>Remarkably Cleaner.
+        Amazingly Simpler.</h1>
+       <h3>Providing spotless cleaning services for busy people since 2035. Always on time, always smiling.</h3> 
+       <button>Book Now</button>
+     </div>
+    <form>
+        <h1 align="center">Get a Free Estimate</h1>
+        <h2 align="center">Contact us</h2>
+        <div class="first">
+            <input type="text"class="name" placeholder="First Name"required>
+            <input type="text"class="name" placeholder="last Name"required>
+            <input type="email"class="name" placeholder="Email"required>
+        </div>
+        <div class="first">
+            <input type="text"class="name" placeholder="Phone Number"required>
+            <input type="text"class="name" placeholder="Address"required>
+            <input type=""class="name" placeholder="City"required>
+        </div>
+       
+        <div class="second">
+            <div id="one">
+                <label for="">Number of rooms:</label>
+           
+                <br>
+            <select name=""id="rooms"class="name">
+                <option value="">Select</option>
+                <option value="">2 bedroom</option>
+                <option value="">3 bedroom</option>
+                <option value="">4 bedroom</option>
+            </select>
+            </div>
+           
+          <div id="two">
+            <label for="">Choose your service:</label>
+            <br>
+            <select name="" id="clean"class="name">
+            <option value="">Select</option>
+             <option value="">Deep Cleaning</option>
+             <option value="">Laundry</option>
+             <option value="Moving in/out">Moving in/out</option>
+            </select>
+          </div>
+        </div>
+        <div class="third">
+            <button>Get a Quote</button>
+        </div>
+    </form>
+   
+   </div> 
+    <div id="secondPage">
+        <h1>Shiny Happy Clients</h1>
+        <div id="info">
+            <div class="box">
+                <br>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <p id="head">
+                “I’m addicted to the Cleanic!”</p>
+                <p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”
+                    <br>Jane Deirs, AR</p></div>
+            <div class="box"> 
+                <br>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <p id="head">
+                    “My flat looks like a boutique hotel”</p>
+                <p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”
+                   <br> Eric Laguardia, CA</p></div>
+            <div class="box"> <br>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <p id="head">
+                “I’m addicted to the Cleanic!”</p>
+                <p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”
+                  <br>  Lena Rogel, RI</p></div>
+            <div class="box"> <br>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <p id="head">
+                “I’m addicted to the Cleanic!”</p>
+                <p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”
+                   <br> Jean McDermott, CT</p></div>
+        </div>
+    </div>
+    <div id="thirdPage">
+          <h1>
+            For Anything You Need</h1>
+          <h2>Our stellar services</h2>
+          <div id="services">
+            <div class="service"><img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2xlYW5pbmclMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D" alt="">
+                <h3>Move In/Move <br> Out</h3>
+            </div>
+            <div class="service"><img src="https://media.istockphoto.com/id/1455431483/photo/cleaning-bathroom-and-mirror-with-a-woman-washing-glass-in-a-house-for-hygiene-with.jpg?s=612x612&w=0&k=20&c=O18UTNNczcV9cHiqhkDnthieMPYWS3oGmb_85MMn3Y0=" alt=""><h3>Deep Cleaning</h3></div>
+            <div class="service"><img src="https://images.unsplash.com/photo-1489274495757-95c7c837b101?q=80&w=1915&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <h3>Laundry</h3></div>
+          </div>
+          <button>See all Services</button>
+    </div>
+    <div id="forthPage">
+        <h1>Before & After</h1>
+        <div id="befaf1">
+            <img src="a.png" alt="">
+
+        </div>
+        <div id="befaf2">
+            <img src="b.png" alt="">
+        </div>
+        <div id="befafcap">
+            <p>Before</p>
+            <p>After</p>
+        </div>  
+    </div>
+    <div id="fifthPage">
+        <div id="part1"><img src="cloth.avif" alt="">
+        <div id="blank"></div>
+        <div id="content">
+            <h1>How It Works</h1>
+            <div id="works">
+                <i class="ri-drop-line"></i>
+                <i class="ri-shirt-line"></i>
+                <i class="ri-key-2-line"></i>
+                <i class="ri-home-8-line"></i>
+            </div>
+            <div id="info">
+                <p id="p1">Choose your desired cleaning service</p>
+                <p id="p2">Use the Cleanic App for laundry pickup</p>
+                <p id="p3">Leave us the keys and we'll take care of the rest</p>
+                <p id="p4">Welcome back to your home clean home!</p>
+            </div>
+            <div id="arrow">
+            <i class="ri-arrow-right-line"id="i1"></i>
+            <i class="ri-arrow-right-line" id="i2"></i>
+            <i class="ri-arrow-right-line" id="i3"></i>
+            </div>
+            
+        </div>
+        </div>
+        <div id="part2">
+            <div class="part">
+                <h1>
+                    Our Plans &
+                    Special Discounts</h1>
+                    <p>I'm a paragraph. Click here to add your own text and edit me. It's easy. I'm a paragraph. Click here to add your own text and edit me. It's easy.</p>
+                    <button>Choose Your Plan</button>
+            </div>
+            
+            <div class="part">
+                <div id="template">
+                    <div id="kind1">
+                        <h3>The Bi-Monthly Plan</h3>
+                        <h2 id="k1"><sup>$</sup>280</h2>
+                        <h6>Every month</h6>
+                        <button>select</button>
+                    </div>
+                    <div id="kind2">
+                          <div id="opt">
+                             <p> <i class="ri-arrow-right-line"id="i1"></i>I’m a benefit</p>
+                            <p> <i class="ri-arrow-right-line"id="i1"></i>I’m a benefit</p>
+                            <p> <i class="ri-arrow-right-line"id="i1"></i>I’m a benefit</p>
+                            <p> <i class="ri-arrow-right-line"id="i1"></i>I’m a benefit</p>
+                            <p> <i class="ri-arrow-right-line"id="i1"></i>I’m a benefit</p></div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="empty"></div>
+        <div id="sixthPage">
+            <div id="imgPart"><div id="photo"></div></div>
+            <div id="infoPart"><h1>Why Choose The Cleanic</h1>
+            <div id="t">
+
+                <div id="t1">
+                    <div class="t2">
+                    <h3><i class="ri-shining-fill"></i>Qualified Team</h3>
+                    <p>I'm a paragraph. Click here to add your own text and edit me. It's easy.</p>
+                    </div>
+                    <div class="t3"id="exc">     
+                    <h3><i class="ri-shining-fill"></i>Same Day Availability</h3> 
+                        <p>I'm a paragraph. Click here to add your own text and edit me. It's easy.</p>
+                    </div>
+                </div>
+                <div id="t1">
+                    <div class="t2">
+                        <h3><i class="ri-shining-fill"></i>Outstanding Support </h3>
+                        <p>I'm a paragraph. Click here to add your own text and edit me. It's easy.</p>
+                    </div>
+                <div class="t3">
+                    <h3><i class="ri-shining-fill"></i>Eco-Friendly Materials</h3>
+                    <p>I'm a paragraph. Click here to add your own text and edit me. It's easy.</p>
+                </div>
+            </div>
+                
+            </div>
+            <button>Get to Know Us</button>
+    </div>
+    </div>
+    <div id="seventhPage">
+        <div id="bigPhoto">
+            <img src="https://static.wixstatic.com/media/c837a6_c333bdc72fb24b2aac15fd8e1a3207cc~mv2.jpg/v1/fill/w_1470,h_1092,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_c333bdc72fb24b2aac15fd8e1a3207cc~mv2.jpg" alt="">
+        </div>
+        <div id="contact">
+        <div id="c1">
+            <h5><i class="ri-shining-fill"></i>The Cleanic</h5>
+
+          <button>Book Now</button>
+        </div>
+        <div id="c2">
+            <p id="head">Legal</p>
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
+            <p>Refund Policy</p>
+        </div>
+        <div id="c3">
+            <p id="head">Operating Hours</p>
+            <p>Mon - Fri: 8am - 8pm
+                 ​​<br>
+                Saturday: 9am - 7pm​
+                <br>
+                Sunday: 9am - 8pm
+            </p>
+            <p id="foot">Follow us for cleaning tips <br>
+                <i class="ri-instagram-line"></i>
+                <i class="ri-facebook-fill"></i>
+                <i class="ri-youtube-fill"></i>
+                <i class="ri-tiktok-fill"></i>
+            </p>
+            
+        </div>
+        <div id="c4">
+            <p id="head"> Contact</p>
+            <p>The cleanic
+                500 Terry Francine Street
+                San Francisco, CA 94158
+                
+                123-456-7890
+            </p>
+            <p id="foot">info@mysite.com</p>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
